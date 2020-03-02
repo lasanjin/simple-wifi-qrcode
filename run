@@ -1,0 +1,8 @@
+#!/bin/bash
+
+path="jar/"
+jars=$path"core-3.3.4-20181025.133109-2.jar:"$path"javase-3.4.0.jar"
+# compile
+javac -cp $jars qr.java
+# run
+java -cp $jars qr.java $1 $2
