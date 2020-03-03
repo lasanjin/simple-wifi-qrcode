@@ -5,5 +5,5 @@ Outputs an png file with QRCode for connecting to Wi-Fi (WPA) using [ZXing](http
 1. Execute [`run`](run)
    - Note: encode the passw string if it contains unusual characters.
 ```
-$ chmod +x && ./run <wifi-name> <wifi-password>
+$ chmod +x run && ./run <wifi-name> <wifi-password>
 ```
